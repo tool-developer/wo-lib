@@ -3,12 +3,8 @@ import request from './index';
 const timeout = 10000;
 // 设置超时
 jest.setTimeout(20000);
-
+// 默认会进入异常
 const resolvedCatch = true;
-
-/*import fetchMock from 'fetch-mock'
-fetchMock.getOnce('*', {})
-*/
 //
 describe('@tool-developer request test', () => {
   const wxr = request.create({

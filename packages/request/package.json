@@ -1,0 +1,35 @@
+{
+  "name": "@tool-developer/wo-request",
+  "version": "0.0.0-canary.0",
+  "description": "wo request",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "clean": "../../scripts/clean_package.sh",
+    "build": "npm run clean & rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tool-developer/wo-lib.git"
+  },
+  "keywords": [
+    "request",
+    "wo request",
+    "wo-request",
+    "axios"
+  ],
+  "author": "@tool-developer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tool-developer/wo-lib/issues"
+  },
+  "homepage": "https://github.com/tool-developer/wo-lib#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {    
+    "@tool-developer/wo-utils":"0.0.0-canary.0",
+    "isomorphic-fetch": "^3.0.0",
+    "query-string": "^7.0.1"
+  }
+}

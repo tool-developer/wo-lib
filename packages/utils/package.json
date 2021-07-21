@@ -1,0 +1,29 @@
+{
+  "name": "@tool-developer/wo-utils",
+  "version": "0.0.0-canary.0",
+  "description": "wo utils library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "clean": "../../scripts/clean_package.sh",
+    "build": "npm run clean & rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tool-developer/wo-lib.git"
+  },
+  "keywords": [
+    "utils",
+    "wo utils",
+    "wo-utils"
+  ],
+  "author": "@tool-developer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tool-developer/wo-lib/issues"
+  },
+  "homepage": "https://github.com/tool-developer/wo-lib#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

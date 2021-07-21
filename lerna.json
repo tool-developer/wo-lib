@@ -1,6 +1,7 @@
 {
   "packages": [
-    "packages/*"
+    "packages/*",
+    "!packages/@types"
   ],
   "version": "0.0.0-canary.1",
   "command": {

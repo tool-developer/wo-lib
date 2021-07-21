@@ -31,5 +31,6 @@
     "@tool-developer/wo-utils": "^0.0.0-canary.1",
     "isomorphic-fetch": "^3.0.0",
     "query-string": "^7.0.1"
-  }
+  },
+  "gitHead": "f75c5d166b55b78d7032edd0921cf164ef657cf2"
 }

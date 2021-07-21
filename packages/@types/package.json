@@ -12,5 +12,9 @@
     "wo-types"
   ],
   "author": "@tool-developer",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "f75c5d166b55b78d7032edd0921cf164ef657cf2"
 }

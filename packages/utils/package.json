@@ -25,5 +25,6 @@
   "homepage": "https://github.com/tool-developer/wo-lib#readme",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "f75c5d166b55b78d7032edd0921cf164ef657cf2"
 }

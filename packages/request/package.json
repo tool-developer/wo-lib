@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/wo-request",
-  "version": "0.0.0-canary.0",
+  "version": "0.0.0-canary.1",
   "description": "wo request",
   "main": "index.js",
   "scripts": {
@@ -27,8 +27,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {    
-    "@tool-developer/wo-utils":"0.0.0-canary.0",
+  "dependencies": {
+    "@tool-developer/wo-utils": "^0.0.0-canary.1",
     "isomorphic-fetch": "^3.0.0",
     "query-string": "^7.0.1"
   }

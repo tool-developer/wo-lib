@@ -1,6 +1,6 @@
 {
   "name": "@types/wo-lib",
-  "version": "0.0.0-canary.0",
+  "version": "0.0.0-canary.1",
   "description": "wo typescript types",
   "main": "",
   "types": "index.d.ts",

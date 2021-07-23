@@ -36,5 +36,5 @@
     "@tool-developer/wo-base-adapter": "^0.0.0-canary.1",
     "@tool-developer/wo-base-request": "^0.0.0-canary.1"
   },
-  "gitHead": "f75c5d166b55b78d7032edd0921cf164ef657cf2"
+  "gitHead": "8fc2eab3857c825e95f9e3a3254948cb9221557d"
 }

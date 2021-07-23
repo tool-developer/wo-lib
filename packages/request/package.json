@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/wo-request",
-  "version": "0.0.0-canary.2",
+  "version": "0.0.1",
   "description": "wo request",
   "main": "index.js",
   "module": "dist/index.js",

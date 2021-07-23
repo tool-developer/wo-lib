@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/wo-storage",
-  "version": "0.0.0-canary.2",
+  "version": "0.0.1",
   "description": "wo storage library",
   "main": "index.js",
   "module": "dist/index.js",

@@ -1,4 +1,4 @@
-import Storage from './lib/index';
+export * from '@tool-developer/wo-base-storage/dist';
 //
 const storage = new Storage(window.localStorage);
 

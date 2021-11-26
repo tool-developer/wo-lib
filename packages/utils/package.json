@@ -1,6 +1,6 @@
 {
   "name": "@tool-developer/wo-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "wo utils library",
   "main": "dist",
   "module": "esm",

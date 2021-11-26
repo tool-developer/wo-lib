@@ -33,7 +33,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@tool-developer/wo-base-request": "^0.0.2"
+    "@tool-developer/wo-base-request": "^0.0.3",
+    "isomorphic-fetch": "^3.0.0"
   },
   "gitHead": "3e241183bdde5495df1341b6ccc21bcc7310fc0c"
 }

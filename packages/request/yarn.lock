@@ -2,19 +2,18 @@
 # yarn lockfile v1
 
 
-"@tool-developer/wo-base-request@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@tool-developer/wo-base-request/-/wo-base-request-0.0.2.tgz#309a5ce363eccef4401c271245b92378082b9017"
-  integrity sha512-FcVPlhvTDoS3QZZYVzBSaBxGL7Rb45AnbQUTlX9QDSGBELIfh4BCuCd+PR+8rn3X1rcsrtR5MiiQDmGgqXx3vQ==
+"@tool-developer/wo-base-request@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/@tool-developer/wo-base-request/-/wo-base-request-0.0.3.tgz#f77369b245f255fc3a8a747ec853da54d233908b"
+  integrity sha512-4xAeJ9lYo+N83aWax3UwZ74szHggriQTEml3dceiwhcvkwXkWQ7M2LdAisEhEbh15FEitJhKGuAY2EMVzzAjBw==
   dependencies:
-    "@tool-developer/wo-base-utils" "^0.0.2"
-    isomorphic-fetch "^3.0.0"
+    "@tool-developer/wo-base-utils" "^0.0.3"
     query-string "^7.0.1"
 
-"@tool-developer/wo-base-utils@^0.0.2":
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/@tool-developer/wo-base-utils/-/wo-base-utils-0.0.2.tgz#7ea76cec2d3fa5d70818aca22fa0abe3c986b64c"
-  integrity sha512-Bgec5Cg+gyXQKFgb2fvnJi0nJIsueNvzjtA37FXq164wczJZaONn0pp/HD7zjyNX60YOfBBO1JwbcHEqMyTRcw==
+"@tool-developer/wo-base-utils@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.npmjs.org/@tool-developer/wo-base-utils/-/wo-base-utils-0.0.3.tgz#3f7fe323b770be075a69ab5a5760c304c52730da"
+  integrity sha512-tNs5vlkPPL2b3iAGXHxE1IqiF8RD/NuyrLUVOSz73Am3R7MYvwVwwomQkJa4z69SPIYx6gFRgsoY1ngrGcwjFA==
 
 decode-uri-component@^0.2.0:
   version "0.2.0"
@@ -28,8 +27,8 @@ filter-obj@^1.1.0:
 
 isomorphic-fetch@^3.0.0:
   version "3.0.0"
-  resolved "https://r.cnpmjs.org/isomorphic-fetch/download/isomorphic-fetch-3.0.0.tgz#0267b005049046d2421207215d45d6a262b8b8b4"
-  integrity sha1-AmewBQSQRtJCEgchXUXWomK4uLQ=
+  resolved "https://registry.npmjs.org/isomorphic-fetch/-/isomorphic-fetch-3.0.0.tgz#0267b005049046d2421207215d45d6a262b8b8b4"
+  integrity sha512-qvUtwJ3j6qwsF3jLxkZ72qCgjMysPzDfeV240JHiGZsANBYd+EEuu35v7dfrJ9Up0Ak07D7GGSkGhCHTqg/5wA==
   dependencies:
     node-fetch "^2.6.1"
     whatwg-fetch "^3.4.1"

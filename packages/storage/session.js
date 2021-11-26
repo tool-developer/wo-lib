@@ -1,1 +1,1 @@
-module.exports = require('./dist/session')
+module.exports = require('./dist/session');

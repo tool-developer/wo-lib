@@ -1,2 +1,13 @@
-export * from '@tool-developer/wo-base-adapter/dist/wo/defaultAdapter';
-export {default} from '@tool-developer/wo-base-adapter/dist/wo/defaultAdapter';
+import 'isomorphic-fetch';
+
+export default function FetchAdapter(config) {
+  //
+  if (!fetch) {
+    //
+    throw new Error('Global fetch not exist!');
+  }
+  //
+  const { url } = config;
+
+  return fetch(url, config);
+}

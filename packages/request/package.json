@@ -2,8 +2,8 @@
   "name": "@tool-developer/wo-request",
   "version": "0.0.1",
   "description": "wo request",
-  "main": "index.js",
-  "module": "dist/index.js",
+  "main": "dist",
+  "module": "esm",
   "scripts": {
     "test": "jest",
     "clean": "../../scripts/clean_package.sh",
@@ -33,8 +33,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@tool-developer/wo-base-adapter": "^0.0.0-canary.1",
-    "@tool-developer/wo-base-request": "^0.0.0-canary.1"
+    "@tool-developer/wo-base-request": "^0.0.2"
   },
   "gitHead": "6274893b760301017159dc8024da10fbc94e7aac"
 }

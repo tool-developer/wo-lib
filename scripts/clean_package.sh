@@ -1,3 +1,5 @@
 #!/bin/sh
 set -e
-rimraf miniprogram_dist
+rimraf dist
+rimraf esm
+rimraf cjs

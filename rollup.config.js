@@ -6,12 +6,17 @@ import multi from 'rollup-plugin-multi-input';
 
 export default {
   input:['./src/*.js','!./src/*.test.js'],
-  output:{
+  output:[{
     // file:'dist/index.js',
     dir:'dist',
+    format:'cjs',
+    assetFileNames:'[name].js'
+  },{
+    // file:'dist/index.js',
+    dir:'esm',
     format:'esm',
     assetFileNames:'[name].js'
-  },
+  }],
   plugins:[
     multi(),
     resolve({

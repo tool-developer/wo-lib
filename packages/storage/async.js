@@ -1,1 +1,1 @@
-module.exports = require('./dist/async');
+ module.exports = require('./dist/async');

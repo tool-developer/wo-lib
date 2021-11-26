@@ -1,4 +1,4 @@
-import storage from './session';
+import storage from './esm/session';
 // 清空
 storage.clear();
 //
